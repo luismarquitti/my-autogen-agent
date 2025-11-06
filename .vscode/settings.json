@@ -1,0 +1,24 @@
+// .vscode/settings.json
+{
+  // --- Configurações Gerais ---
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // --- Configurações do Python ---
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+
+  // --- Formatação (Black) ---
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  // --- Linting (Ruff) ---
+  "ruff.lint.onSave": true,
+  "ruff.fixAll": true,
+  "ruff.organizeImports": true
+}
